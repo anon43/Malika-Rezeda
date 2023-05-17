@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .review {
+    margin-bottom: 20px;
+  }
+  
+  blockquote {
+    font-style: italic;
+    border-left: 4px solid #333;
+    padding-left: 10px;
+  }
+  
+  cite {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  section#blog {
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  section#blog .blog-post {
+    margin-bottom: 20px;
+  }
+  
+  section#blog h2 {
+    margin-bottom: 10px;
+  }
+  
+  section#blog h3 {
+    margin: 0 0 10px;
+  }
+  
+  section#blog p {
+    margin-bottom: 10px;
+  }
+  
+  section#blog a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  section#blog a:hover {
+    text-decoration: underline;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section.blog-post {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin: 0 0 10px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .collapsed {
+    display: none;
+  }
+  @media (max-width: 600px) {
+    header {
+      padding: 10px;
+      text-align: center;
+    }
+  
+    main {
+      padding: 10px;
+    }
+  
+    section.blog-post {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    h2 {
+      margin-top: 20px;
+    }
+  
+    img {
+      max-width: 100%;
+    }
+  }
